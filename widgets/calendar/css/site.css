@@ -1,0 +1,48 @@
+table.calendar-jalali {
+	width: 100%;
+	margin: 1em 0;
+	border-spacing: 10px;
+}
+
+a.month {
+	margin: 1em;
+}
+
+table.calendar-jalali td {
+    padding: 1em;
+    font-weight: bold;
+}
+
+table.calendar-jalali tr:first-child td {
+    border: 2px #e3b014 solid;
+    background: #ecdcad;
+    text-align: center;
+}
+
+table.calendar-jalali tr:not(:first-child) td {
+    width: 50px;
+    height: 100px;
+    border: 3px #2153d0 solid;
+    background: #bfcff6;
+    vertical-align: top;
+}
+
+table.calendar-jalali td.off {
+    background: #e6c8c8!important;
+}
+
+table.calendar-jalali td.active {
+    background: #cee99f!important;
+}
+
+table.calendar-jalali td.deactive {
+    background: #e2e2e2!important;
+}
+
+table.calendar-jalali td.today {
+    background: #0954ec!important;
+}
+
+a[href*='create'] {
+	display: none;
+}
